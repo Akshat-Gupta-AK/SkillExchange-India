@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000", { autoConnect: false });
+const socket = io("https://skillexchange-india-2.onrender.com", { autoConnect: false });
 
 export const connectSocket = (userId) => {
   socket.connect();
